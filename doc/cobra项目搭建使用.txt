@@ -1,0 +1,17 @@
+第一步：
+创建一个文件目录
+demo
+进入创建项目 使用mod
+指令：
+1、go mod init demo
+
+引入cobra指令
+2、go get -v github.com/spf13/cobra/cobra
+
+查看gopath，找到bin目录下cobra.exe
+利用cobra.exe构建cli项目
+3、../../go/bin/cobra.exe init --pkg-name demo
+
+
+
+composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
